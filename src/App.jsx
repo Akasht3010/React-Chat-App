@@ -1,11 +1,17 @@
 import { useState } from "react";
+import List from "./components/list/List";
+import Chat from "./components/chat/Chat";
+import Detail from "./components/detail/Detail";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="container">
-      <h1>hello</h1>
+      <List/>
+      <Chat/>
+      <Detail/>
+      
     </div>
   );
 }
