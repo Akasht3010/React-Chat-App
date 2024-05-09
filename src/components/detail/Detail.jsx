@@ -4,9 +4,11 @@ import './detail.css'
 const Detail = () => {
   return (
     <div className='detail'>
-      Detail
+      <div className="user"></div>
+      <div className="info"></div>
     </div>
   )
 }
 
 export default Detail
+ 
