@@ -1,5 +1,5 @@
-.userinfo {
-  padding: 10px;
+.userInfo {
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-right: 20px;
 
     img {
       width: 50px;
@@ -17,14 +16,15 @@
       object-fit: cover;
     }
   }
+
   .icons {
     display: flex;
     gap: 20px;
 
     img {
-        width: 20px;
-        height: 20px;
-        cursor: pointer;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
     }
   }
 }
